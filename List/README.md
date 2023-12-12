@@ -1,6 +1,1 @@
-This is my own implementation of std::deque. The main methods of the specified containers are implemented, as well as 
-support for iterators and reverse iterators. The deque is implemented as an array of pointers to blocks of elements, 
-where the blocks can be located far apart in memory. All methods are strong exception safety. Additionally, it supports 
-move semantics, allowing for efficient transfer of objects between containers without the need for copying. Deque can 
-also be configured using allocators, enabling control over the allocation and deallocation of memory for the container's 
-elements.
+This represents my custom implementation of the std::list. I have implemented the core methods of the specified container, along with support for iterators and reverse iterators. List is implemented as a doubly-linked list, where each element contains pointers to the previous and next elements. All methods ensure strong exception safety. Moreover, it embraces move semantics, facilitating the efficient transfer of objects between containers without the necessity for copying. Additionally, the list can be customized using allocators, granting control over the allocation and deallocation of memory for the container's elements.
